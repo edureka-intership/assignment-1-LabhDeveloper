@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<head>
+    <title>Listing Page</title>
+    <link rel="stylesheet" href="Listing.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div id="icon">
+            <h1>Xomato - <a href = "Xomato Home.html"  >Home Page</a></h1>
+        </div>
+        <div id="social">
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="https://i.ibb.co/dtzG625/facebook.png" alt="Facebook" class="slogo"/>
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="https://i.ibb.co/19H5LvT/insta.png" alt="Instagram" class="slogo"/>
+            </a>
+            <a href="https://www.youtube.com" target="_blank" >
+                <img src="https://i.ibb.co/w07K2Vn/youtube1.png" alt="Youtube" class="slogo"/>
+            </a>
+        </div>
+    </header>
+    
+    <!--Search - Filter Section-->
+    <div id="heading">
+        <span>Listing Page</span>
+    </div>
+    <div id="filter">
+            <div id="Mainfilter">
+                <span>Filter By</span>
+                <div class="subheading">
+                    <p>Select Location</p>
+                    <select name="" id="p1">
+                        <option value="">Select Location</option>
+                        <option>Gwalior</option>
+                        <option>Ahmedabad</option>
+                        <option>Delhi</option>
+                        <option>Mumbai</option>
+                    </select>
+                    <p>Select Cuisine</p>
+                    <div class="container">
+                        <label for="checkbox">
+                            <div class="cuisine">
+                                <input type="checkbox" name="cuisine"> Fast Food 
+                            </div>
+                            <div class="cuisine">
+                                <input type="checkbox" name="cuisine"> South Indian Dishes
+                            </div>
+                            <div class="cuisine">
+                                <input type="checkbox" name="cuisine"> North Indian Dishes
+                            </div>
+                            <div class="cuisine">
+                                <input type="checkbox" name="cuisine"> Chinese Food
+                            </div>
+                            <div class="cuisine">
+                                <input type="checkbox" name="cuisine"> Italian
+                            </div>
+                        </label>
+                        <p>Price Range</p>
+                        <div>
+                            <input type="radio" name="price"> < Rs.300
+                        </div>
+                        <div>
+                            <input type="radio" name="price"> Rs.300 - Rs.600
+                        </div>
+                        <div>
+                            <input type="radio" name="price"> Rs.600 - Rs.1000
+                        </div>
+                        <div>
+                            <input type="radio" name="price"> Rs.1000 - Rs.2000
+                        </div>
+                        <div>
+                            <input type="radio" name="price"> Rs.2000 - Rs.4000
+                        </div>
+                        <p>Sort By</p>
+                        <div>
+                            <input type="radio" name="sort"> Price - Low to High
+                        </div>
+                        <div>
+                            <input type="radio" name="sort"> Price - High to Low
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    <!-- Content page  -->
+    <div id="main">
+        <p class="c1"> CONTENT </p>
+        <div class="tilecontainer">
+            <div class="tilecomponent1">
+                <img src="Images/r1.jpg" alt="Valiant kitchen">
+            </div>
+            <div class="tilecomponent2">
+                <div class="componentheading">
+                    <a href="">Valiant Kitchen</a>
+                </div>
+                <div class="componentsubheading">
+                    <p>North Indian | Veg | Non-Veg | Kebab | Salads</p>
+                    <p>Rs.250 /- </p>
+                </div>
+            </div>
+        </div>
+        <div class="tilecontainer">
+            <div class="tilecomponent1">
+                <img src="Images/r6.jpeg" alt="Domino's">
+            </div>
+            <div class="tilecomponent2">
+                <div class="componentheading">
+                    <a href="">Domino's</a>
+                </div>
+                <div class="componentsubheading">
+                    <p>Fast Food | Italian</p>
+                    <p>Rs.300 /- </p>
+                </div>
+            </div>
+        </div>
+        <div class="tilecontainer">
+            <div class="tilecomponent1">
+                <img src="Images/r3.jpg" alt="Dosa Corner">
+            </div>
+            <div class="tilecomponent2">
+                <div class="componentheading">
+                    <a href="">Dosa Corner</a>
+                </div>
+                <div class="componentsubheading">
+                    <p>South Indian | Homemade</p>
+                    <p>Rs.150 /-</p>
+                </div>
+            </div>
+        </div>
+        <div class="tilecontainer">
+            <div class="tilecomponent1">
+                <img src="Images/r4.jpg" alt="Fried n' Fresh.">
+            </div>
+            <div class="tilecomponent2">
+                <div class="componentheading">
+                    <a href="">Fried n' Fresh</a>
+                </div>
+                <div class="componentsubheading">
+                    <p>Non Veg, Fast Food, Beverages</p>
+                    <p>Rs.400 /-</p>
+                </div>
+            </div>
+        </div>
+        <div class="tilecontainer">
+            <div class="tilecomponent1">
+                <img src="Images/r5.jpeg" alt="China Express">
+            </div>
+            <div class="tilecomponent2">
+                <div class="componentheading">
+                    <a href="">China Express</a>
+                </div>
+                <div class="componentsubheading">
+                    <p>Chinese | Fast Food</p>
+                    <p>Rs.200 /-</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+
+    <!-- Footer Section -->
+    <footer>
+        <p id="footcopy">&copy; LABH K</p>
+        <hr>
+        <div class="footcontact noborder">
+            <p>Contact Us</p>
+            <p>About Us</p>
+        </div>
+        <div class="footcontact">
+            <p>Contact Us</p>
+            <p>About Us</p>
+        </div>
+        <div class="footcontact">
+            <p>Contact Us</p>
+            <p>About Us</p>
+        </div>
+    </footer>
+</body>
+
+</html>
